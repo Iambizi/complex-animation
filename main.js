@@ -66,6 +66,7 @@ scene.add(light3);
 // 4) CONTROLS \\
 controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.minDistance = 17;
+controls.maxDistance = 100;
 
 // 5) GEOMETRY + MATERIAL \\
 
